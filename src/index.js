@@ -8,7 +8,6 @@ app.use(cors());
 app.use(bodyparser.json());
 
 
-// get all data
 // Routing
 const mainRouter = require('./routes/main')
 
